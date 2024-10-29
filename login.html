@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .login-container {
+            background-color: blanchedalmond;
+          
+            padding: 4%;
+        }
+
+        .form-field label {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .form-field input {
+            padding: 20px;
+          
+            margin: 10px 0px;
+        }
+
+        @media (max-width:430px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .login-container {
+                width: 80%;
+            }
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <form  action ="diwali.html" class="login-container">
+            <h1>login</h1>
+            <div class="form-field">
+                <label for="">username</label><br />
+                <input type="username" placeholder="Enter passeord" name="username" required>
+            </div>
+            <div class="form-field">
+                <label for="">password</label><br />
+                <input type="password" placeholder="Enter passeord" name="passeord" required>
+             </div>
+            <div class="form-field">
+                <label for=""></label>
+            </div>
+            <button class="form-btn">Login</button>
+            <p>
+                Dont have an account sign up here
+            </p>
+        </form>
+        <img src="https://img.pikbest.com/origin/10/00/97/94XpIkbEsTQqu.png!w700wp  ">
+    </div>
+
+
+    </head>
+</body>
+
+</html>
